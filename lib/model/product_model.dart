@@ -1,7 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:product_app/model/rating.dart';
 
-// ignore: must_be_immutable
 class ProductModel extends Equatable {
   int? id;
   String? title;

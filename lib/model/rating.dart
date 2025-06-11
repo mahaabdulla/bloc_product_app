@@ -1,4 +1,6 @@
-class Rating {
+import 'package:equatable/equatable.dart';
+
+class Rating extends Equatable {
   double? rate;
   int? count;
 
@@ -15,4 +17,7 @@ class Rating {
     data['count'] = this.count;
     return data;
   }
+
+  @override
+  List<Object?> get props => [rate, count];
 }
