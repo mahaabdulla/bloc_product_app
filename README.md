@@ -35,3 +35,10 @@ A Flutter application that displays a list of products using the BLoC (Business 
     equatable
 
     (Add other dependencies like dio, etc.)
+
+🛠️ Getting Started
+
+ git clone https://github.com/your-username/bloc_product_app.git
+ cd bloc_product_app
+ flutter pub get
+ flutter run
