@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:product_app/constant/api_url.dart';
-import 'package:product_app/model/product_model.dart';
+import 'package:product_app/core/constant/api_url.dart';
+import 'package:product_app/feature/model/product_model.dart';
 import 'dart:developer' as dev;
 
 class ProductRepository {

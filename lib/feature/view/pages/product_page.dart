@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:product_app/cubit/product_cubit.dart';
+import 'package:product_app/feature/cubits/products/product_cubit.dart';
 
 class SingleProductPage extends StatefulWidget {
   final int id;

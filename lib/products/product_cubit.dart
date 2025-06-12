@@ -2,9 +2,9 @@ import 'package:dio/dio.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:product_app/helper/dio_exption.dart';
-import 'package:product_app/model/product_model.dart';
-import 'package:product_app/repo/product_repo.dart';
+import 'package:product_app/core/helper/dio_exption.dart';
+import 'package:product_app/feature/model/product_model.dart';
+import 'package:product_app/feature/cubits/repo/product_repo.dart';
 import 'dart:developer' as dev;
 part 'product_state.dart';
 
