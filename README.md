@@ -11,6 +11,10 @@ A Flutter application that displays a list of products using the BLoC (Business 
 
     Clean separation of UI and logic using the BLoC pattern
 
+    Scalable and maintainable folder structure
+
+    Responsive design
+
 
 
 
