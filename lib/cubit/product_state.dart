@@ -9,6 +9,14 @@ sealed class ProductState extends Equatable {
 
 final class ProductInitial extends ProductState {
   ProductInitial() : super([]);
+
+  @override
+  List<Object?> get props => [];
+}
+
+final class ProductLoading extends ProductState {
+  ProductLoading() : super([]);
+
   @override
   List<Object?> get props => [];
 }
@@ -18,6 +26,15 @@ final class ProductSuccess extends ProductState {
 
   @override
   List<Object?> get props => [products];
+}
+
+final class ProductSingleSuccess extends ProductState {
+  final ProductModel product;
+
+  ProductSingleSuccess(this.product) : super([]);
+
+  @override
+  List<Object?> get props => [product];
 }
 
 final class ProductFailur extends ProductState {

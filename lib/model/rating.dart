@@ -2,13 +2,13 @@ import 'package:equatable/equatable.dart';
 
 class Rating extends Equatable {
   double? rate;
-  int? count;
+  double? count;
 
   Rating({this.rate, this.count});
 
   Rating.fromJson(Map<String, dynamic> json) {
-    rate = json['rate'];
-    count = json['count'];
+    rate = (json['rate'] as num).toDouble();
+    count = (json['count'] as num).toDouble();
   }
 
   Map<String, dynamic> toJson() {
