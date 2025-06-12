@@ -15,3 +15,14 @@ A Flutter application that displays a list of products using the BLoC (Business 
     Responsive design
 
 
+🧱 Tech Stack
+
+    Flutter – UI toolkit
+
+    Dart – Programming language
+
+    flutter_bloc – State management
+
+    Equatable – Simplifies value comparisons
+
+    Repository Pattern – For data abstraction (API or local data)
